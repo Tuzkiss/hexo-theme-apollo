@@ -3,8 +3,7 @@ menu:
     Archive: /archives/
     Weibo: http://weibo.com/tuzkiss
     GitHub: https://github.com/tuzkiss
-    Resume: http://www.tuzkiss.com/resume/
-    Rss: /atom.xml
+    Resume: /resume/
 
 favicon: /favicon.png
 logo: /favicon.png
