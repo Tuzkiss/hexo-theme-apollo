@@ -1,8 +1,9 @@
 menu:
     Blog: /
     Archive: /archives/
-    Weibo: http://weibo.com/sunchongsheng
-    GitHub: https://github.com/pinggod
+    Weibo: http://weibo.com/tuzkiss
+    GitHub: https://github.com/tuzkiss
+    Resume: http://www.tuzkiss.com/resume/
     Rss: /atom.xml
 
 favicon: /favicon.png
@@ -13,9 +14,6 @@ logo: /favicon.png
 disqus:
 duoshuo:
 
-# Analytics
-# google-analytics:
-ga: UA-65933410-1
 
 # Copyright Infomation
 startyear: 2015
