@@ -11,10 +11,13 @@
 
     .post-info {
         color: #7f8c8d;
-        margin: 1.2em 0;
+        margin: 1.2em 0 .7em;
         overflow: hidden;
         span {
             margin-left: 0.5rem;
+            white-space: nowrap;
+            display: inline-block;
+            margin-bottom: 0.5em;
         }
         a.post-from {
             margin-left: 0.5rem;
@@ -25,10 +28,13 @@
             background-color: #E36B6B;
         }
 
-        .post-tag {
+        span.post-tag {
             margin: 0 0.5em;
             color: white;
-            background-color: #E36B6B;
+            background-color: #e48383;
+            padding: 0.4em 0 0.3em;
+            border-radius: 20px;
+            font-size: 13px;
         }
     }
 }
