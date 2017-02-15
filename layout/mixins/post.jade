@@ -7,6 +7,11 @@ mixin postInfo(item)
                 != '#' + tag.name
         -})
 
+mixin postDateInfo(item)
+    .post-info
+        span.post-date
+            != full_date(item.date, 'll')
+
 
 //- Index Page
 mixin posts()
@@ -35,7 +40,7 @@ mixin postList()
             if change 
                 h2.archive-year!= year
             .post-item
-                +postInfo(item)
+                +postDateInfo(item)
                 a.post-title-link(href= url_for(item.path))
                     != item.title
         - })

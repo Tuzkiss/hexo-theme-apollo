@@ -1,3 +1,5 @@
+@import "variable";
+
 .archive {
     max-width: 500px;
     margin: 5em auto;
@@ -11,11 +13,11 @@
     .post-title-link {
         display: block;
         margin-left: 125px;
-        color: #42b983;
+        color: $color-green;
         word-break: break-all;
         &:hover {
             border-bottom: 0;
-            color: #267B54;
+            color: $color-green-hover;
         }
     }
     .post-info {
