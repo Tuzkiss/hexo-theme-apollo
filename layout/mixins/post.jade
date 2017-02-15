@@ -1,8 +1,11 @@
 mixin postInfo(item)
     .post-info
-        != full_date(item.date, 'll')
-        .post-tag
-            != item.tag
+        span.post-date
+            != full_date(item.date, 'll')
+        -item.tags.each(function(tag){
+            span.post-tag
+                != '#' + tag.name
+        -})
 
 
 //- Index Page
