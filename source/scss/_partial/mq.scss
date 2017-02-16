@@ -18,7 +18,11 @@ main.container {
     }
     header {
         padding: 20px 0;
-        a.logo-link,
+        a.logo-link {
+            float: none;
+            display: block;
+            margin: 0 auto 20px;
+        }
         ul.nav.nav-list {
             float: none;
             display: block;
